@@ -17,7 +17,7 @@
    bash
 
 Code kopieren
-git clone https://github.com/nutzer/mein-projekt.git```
+git clone [https://github.com/nutzer/mein-projekt.git`](https://anca-dci.github.io/markdown_Template/)``
 
 ---
 
