@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+
+}
+.glowing-text{
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient (90deg, red, yellow, green, cyan, blue, magenta, red );
+    background-size: 300%;
+
+   
+/* -webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent; */
+animation: glowing 5s linear infinite;
+    
+}
+
+@keyframes glowing {
+    0% {background-position: 0% 50%;
+    }
+    50% {background-position: 100% 50%;
+    }
+    100% {background-position: 0% 50%;
+    }
+} 
+
