@@ -71,7 +71,7 @@ Pentru cod __inline__, se folosește un backtick ` `.
 > *Link-urile sunt create folosind paranteze pătrate și rotunde.
 
 [OpenMyMail](https://www.openMyMail.com)
-
+[Open](https://www.w3schools.com/howto/howto_css_glowing_text.asp)
 
 ### 6.Imagini
 

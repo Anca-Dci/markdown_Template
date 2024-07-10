@@ -7,26 +7,21 @@ body {
     background-color: black;
 
 }
-.glowing-text{
+.glow-text{
     font-size: 4rem;
     font-weight: bold;
-    background: linear-gradient (90deg, red, yellow, green, cyan, blue, magenta, red );
     background-size: 300%;
-
-   
-/* -webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent; */
-animation: glowing 5s linear infinite;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; 
     
 }
 
-@keyframes glowing {
-    0% {background-position: 0% 50%;
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #640434, 0 0 60px #e60073, 0 0 70px #e60073;
     }
-    50% {background-position: 100% 50%;
+    to {
+      text-shadow: 0 0 20px #c081eb, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #5a0630;
     }
-    100% {background-position: 0% 50%;
-    }
-} 
-
+  }
