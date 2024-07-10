@@ -64,11 +64,11 @@ console.log("Hello, world!");
 
 Pentru cod __inline__, se folosește un backtick ` `.
 
-`print('Hello, world!')`
+    `print('Hello, world!')`
 
 ### 5.Link-uri
 
-*Link-urile sunt create folosind paranteze pătrate și rotunde.
+> *Link-urile sunt create folosind paranteze pătrate și rotunde.
 
 [OpenMyMail](https://www.openMyMail.com)
 
@@ -106,5 +106,5 @@ Orice contribuție este binevenită. Te rog să deschizi un pull request sau să
 ## Licență
 Acest proiect este licențiat sub MIT License.
 
-Autor 
-AncaMihaelaB.
+*Autor*~ 
+__AncaMihaelaB__.
